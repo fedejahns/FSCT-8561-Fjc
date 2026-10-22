@@ -1,0 +1,5 @@
+endpoint,method,input,status_code,response_length,content_type,server
+/,GET,,200,9984,text/html; charset=UTF-8,
+/rest/products/search,GET,apple,200,1617,application/json; charset=utf-8,
+/rest/products/search,GET,banana,200,504,application/json; charset=utf-8,
+/rest/products/search,POST,apple,500,2442,text/html; charset=utf-8,
