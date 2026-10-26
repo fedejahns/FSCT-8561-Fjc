@@ -1,0 +1,9 @@
+Instructions:
+- ensure all scripts (server.py and client.py) along with (test_website.py and PCAP file)
+  are in the same folder when running the client to server setup
+- main account name: Federico
+  passcode: ba8ba880$@
+afterwards, open TOTP_secret.txt to get the TOTP code hash 
+or
+run the command  py -c "import pyotp; print(pyotp.TOTP(open('totp_secret.txt').read() 
+to display the output of the TOTP code after user authentication
